@@ -6,6 +6,9 @@ AAA refers to Authentication (to identify), Authorization (to give permission) a
 2. Authorization
 3. Security
 
+for more detail see:
+[A,A,A](https://github.com/vaslco/docs/blob/main/ciam/features/AAA.md)
+
 ## Integration
 Software integration is the process of bringing together various types of software systems so that they exchange info like a single system.
 
