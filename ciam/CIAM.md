@@ -1,4 +1,11 @@
 # Customer Identity and Access Management (CIAM)
+
+## <a name="CIAM"></a> CIAM main features 
+
+-   [A,A,A](#aaa) - Authentication, Authorization & Access Control
+-   [Administration](#administration) - Administration panel
+
+## <a name="aaa"></a> A,A,A
 ## A,A,A
 AAA refers to Authentication (to identify), Authorization (to give permission) and Accounting (to log an audit trail).
 
@@ -19,6 +26,7 @@ Software integration is the process of bringing together various types of softwa
 for more detail see:
 [Integration](/ciam/features/integration.md)
 
+## <a name="administration"></a> Administration
 ## Administration
 An Administration services enables administrators of an application, website, or IT system to manage its configurations, settings, content, and features and carry out oversight functions critical to the business. It allows them to view the state of the platform and take any action in the performance of their duties.
 
