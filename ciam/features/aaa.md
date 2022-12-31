@@ -1,4 +1,3 @@
-# Customer Identity and Access Management (CIAM)
 ## A,A,A
 AAA refers to Authentication (to identify), Authorization (to give permission) and Accounting (to log an audit trail).
 
