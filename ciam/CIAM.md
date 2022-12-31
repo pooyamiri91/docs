@@ -19,8 +19,6 @@ Software integration is the process of bringing together various types of softwa
 for more detail see:
 [Integration](/ciam/features/integration.md)
 
-
-
 ## Administration
 An Administration services enables administrators of an application, website, or IT system to manage its configurations, settings, content, and features and carry out oversight functions critical to the business. It allows them to view the state of the platform and take any action in the performance of their duties.
 
@@ -33,6 +31,8 @@ An Administration services enables administrators of an application, website, or
 7. Federation
 8. App2Web
 
+for more detail see:
+[Administration](/ciam/features/administration.md)
 
 ## User Management
 User management is an organizational function that enables users to access and control digital assets, such as applications, devices, networks, and cloud services. Organizations are now exploring even more advanced solutions.
@@ -41,6 +41,8 @@ User management is an organizational function that enables users to access and c
 2. Profiling
 3. Right of Erasure
 
+for more detail see:
+[User Management](/ciam/features/user-management.md)
 
 ## Monitoring & Logs
 Registration of logs and monitoring is the process by which we aggregate & observe log messages, often through real-time processing and parsing of these files. This is easily completed with the assistance of log management microservice.
@@ -49,6 +51,9 @@ Registration of logs and monitoring is the process by which we aggregate & obser
 2. Aggregation
 3. Monitoring
 
+for more detail see:
+[Monitoring & Logs](/ciam/features/monitoring-logs.md)
+
 ## Reports & Analytics
 Once data is collected, it will be organized using tools such as graphs and tables. The process of organizing this data is called reporting. Analytics, on the other hand, is the process of taking the organized data and analyzing it in order to gain valuable insights on how businesses can improve their performance.
 1. Users
@@ -56,8 +61,13 @@ Once data is collected, it will be organized using tools such as graphs and tabl
 3. Third Party
 4. Integration
 
+for more detail see:
+[Reports & Analytics](/ciam/features/reports-analytics.md)
 
 ## Agent SDks
 The CIAM Agents SDK provides APIs and Utilities that developers can use to build applications with different language to discover APIs hosted on remote CIAM server or server of resources. The CIAM Agents SDK helps in reducing complexity in implementing against the direct REST API interface and hides low level plumbing to provide discovery and traceability related features.
 1. Security
 2. Resource
+
+for more detail see:
+[Agent SDks](/ciam/features/agent-sdks.md)
