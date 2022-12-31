@@ -3,7 +3,7 @@
 ## <a name="CIAM"></a> CIAM key components 
 
 - [A,A,A](#aaa) - Authentication, Authorization & Access Control
-- [integration](#integration) - Integration of services
+- [Integration](#integration) - Integration of services
 - [Administration](#administration) - Administration panel
 - [User Management](#user-management) - User Management
 - [Monitoring & Logs](#monitoring-logs) - Monitoring & Logs
