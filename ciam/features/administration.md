@@ -7,5 +7,3 @@ An Administration services enables administrators of an application, website, or
 4. Clients
 5. Policy Management
 6. Security Management
-7. Federation
-8. App2Web

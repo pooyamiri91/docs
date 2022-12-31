@@ -28,8 +28,6 @@ An Administration services enables administrators of an application, website, or
 4. Clients
 5. Policy Management
 6. Security Management
-7. Federation
-8. App2Web
 
 for more detail see:
 [Administration](/ciam/features/administration.md)
@@ -39,7 +37,8 @@ User management is an organizational function that enables users to access and c
 
 1. Users
 2. Profiling
-3. Right of Erasure
+3. Federation
+4. Right of Erasure
 
 for more detail see:
 [User Management](/ciam/features/user-management.md)
