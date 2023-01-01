@@ -34,13 +34,28 @@ Monetizes APIs through billing and pricing, which involves setting up billing pl
 - Legal and compliance
 
 ## <a name="gateway"></a> Gateway
-Gateway
+A proxy gateway is a type of API gateway that acts as an intermediary between API consumers and API providers. It receives requests from API consumers and forwards them to the appropriate API provider.
+
+1. Request Routing 
+2. Protocol Translation 
+3. Transformation
+4. Security
+5. Load Balancing 
+6. Caching 
+7. Logs & Metrics
 
 for more detail see:
 [Gateway](/samp/features/gateway.md)
 
 ## <a name="api-store"></a> API Store
-API Store
+API Store is a component of an API management platform that provides a catalog of APIs for developers to browse, discover, and subscribe to. It is typically implemented as a web portal or a developer portal, and it serves as a centralized location for developers to find and learn about the APIs that are available to them.
+
+1. Catalog of APIs 
+2. Search and filtering tools 
+3. Documentation and tutorials 
+4. Test tools and consoles 
+5. Subscription and billing management 
+6. Support resources
 
 ## <a name="security-policies"></a> Security & Policies
 Secures APIs by providing authentication mechanisms to verify the identity of API clients, authorization mechanisms to determine which clients are allowed to access which resources, and SSL/TLS termination to encrypt communication between clients and the API gateway.
