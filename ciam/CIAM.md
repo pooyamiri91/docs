@@ -11,7 +11,7 @@
 - [Agent SDks](#agent-sdks) - Agent SDks
 
 ## <a name="aaa"></a> A,A,A
-AAA refers to Authentication (to identify), Authorization (to give permission) and Accounting (to log an audit trail).
+AAA refers to Authentication (to identify), Authorization (to give permission) and Access Control (to giving access).
 
 1. Authentication
 2. Authorization
