@@ -2,22 +2,14 @@
 
 ## <a name="SAMP"></a> SAMP key components
 
-- [Lifecycle Management](#aaa) - Lifecycle Management
-- [Developer Portal](#integration) - Developer Portal
-- [Monetization](#administration) - Monetization
-- [Gateway](#user-management) - Gateway
-- [Security](#monitoring-logs) - Security
-- [Monitoring & Logs](#agent-sdks) - Monitoring & Logs
+- [Developer Portal](#developer-portal) - Developer Portal
+- [Monetization](#monetization) - Monetization
+- [Gateway](#gateway) - Gateway
+- [API Store](#api-store) - API Store
+- [Security](#security) - Security
+- [Monitoring & Logs](#monitoring-logs) - Monitoring & Logs
 - [Reports & Analytics](#reports-analytics) - Reports & Analytics
 
-
-## <a name="lifecycle-management"></a> Lifecycle Management
-Manages the lifecycle of APIs through design, which involves creating the API design using tools such as OpenAPI/Swagger or RAML, documentation, which involves generating documentation for the API using tools such as Swagger UI or ReDoc, deployment, which involves deploying the API to different environments such as staging or production, testing, which involves testing the API using different techniques such as unit testing or integration testing, and versioning and deprecation, which involves managing different versions of the API and deprecating old versions.
-
-1. API design and onboarding 
-2. Deployment and testing 
-3. Versioning and deprecation 
-4. Approval and release processes
 
 ## <a name="developer-portal"></a> Developer Portal
 Provides a developer portal for developers to learn about, test, and use APIs. The developer portal typically includes documentation, such as API reference guides and tutorials, a sandbox environment for testing API requests, support resources such as a knowledge base and community forums, SDK
@@ -43,6 +35,9 @@ Monetizes APIs through billing and pricing, which involves setting up billing pl
 
 ## <a name="monitoring-logs"></a> Gateway
 Gateway
+
+## <a name="api-store"></a> API Store
+API Store
 
 ## <a name="security"></a> Security
 Secures APIs by providing authentication mechanisms to verify the identity of API clients, authorization mechanisms to determine which clients are allowed to access which resources, and SSL/TLS termination to encrypt communication between clients and the API gateway.
