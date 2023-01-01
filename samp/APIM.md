@@ -36,6 +36,9 @@ Monetizes APIs through billing and pricing, which involves setting up billing pl
 ## <a name="gateway"></a> Gateway
 Gateway
 
+for more detail see:
+[Gateway](/samp/features/gateway.md)
+
 ## <a name="api-store"></a> API Store
 API Store
 
@@ -55,7 +58,7 @@ Monitors and analyzes API usage through request logging, which captures informat
 3. Monitoring
 
 for more detail see:
-[Monitoring & Logs](/ciam/features/monitoring-logs.md)
+[Monitoring & Logs](/samp/features/monitoring-logs.md)
 
 ## <a name="reports-analytics"></a> Reports & Analytics
 Once data is collected, it will be organized using tools such as graphs and tables. The process of organizing this data is called reporting. Analytics, on the other hand, is the process of taking the organized data and analyzing it in order to gain valuable insights on how businesses can improve their performance.
@@ -65,4 +68,4 @@ Once data is collected, it will be organized using tools such as graphs and tabl
 4. Integration
 
 for more detail see:
-[Reports & Analytics](/ciam/features/reports-analytics.md)
+[Reports & Analytics](/samp/features/reports-analytics.md)
