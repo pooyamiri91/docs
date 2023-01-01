@@ -33,7 +33,7 @@ Monetizes APIs through billing and pricing, which involves setting up billing pl
 - Partner management
 - Legal and compliance
 
-## <a name="monitoring-logs"></a> Gateway
+## <a name="gateway"></a> Gateway
 Gateway
 
 ## <a name="api-store"></a> API Store
