@@ -6,7 +6,7 @@
 - [Monetization](#monetization) - Monetization
 - [Gateway](#gateway) - Gateway
 - [API Store](#api-store) - API Store
-- [Security](#security) - Security
+- [Security](#security-policies) - Security & Policies
 - [Monitoring & Logs](#monitoring-logs) - Monitoring & Logs
 - [Reports & Analytics](#reports-analytics) - Reports & Analytics
 
@@ -39,8 +39,9 @@ Gateway
 ## <a name="api-store"></a> API Store
 API Store
 
-## <a name="security"></a> Security
+## <a name="security-policies"></a> Security & Policies
 Secures APIs by providing authentication mechanisms to verify the identity of API clients, authorization mechanisms to determine which clients are allowed to access which resources, and SSL/TLS termination to encrypt communication between clients and the API gateway.
+Policies 
 
 1. Authentication
 2. Authorization
