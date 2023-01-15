@@ -2,13 +2,13 @@
 
 ## <a name="APIM"></a> APIM key components
 
-- [Developer Portal](#developer-portal) - Developer Portal
-- [Monetization](#monetization) - Monetization
-- [Gateway](#gateway) - Gateway
-- [API Store](#api-store) - API Store
-- [Security](#security-policies) - Security & Policies
-- [Monitoring & Logs](#monitoring-logs) - Monitoring & Logs
-- [Reports & Analytics](#reports-analytics) - Reports & Analytics
+1. [Developer Portal](#developer-portal) - Developer Portal
+2. [Monetization](#monetization) - Monetization
+3. [Gateway](#gateway) - Gateway
+4. [API Store](#api-store) - API Store
+5. [Security](#security-policies) - Security & Policies
+6. [Monitoring & Logs](#monitoring-logs) - Monitoring & Logs
+7. [Reports & Analytics](#reports-analytics) - Reports & Analytics
 
 ## <a name="developer-portal"></a> Developer Portal
 

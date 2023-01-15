@@ -8,13 +8,13 @@ Some common features of CIAM systems include identity verification, single sign-
 
 ## <a name="CIAM"></a> CIAM key components 
 
-- [A,A,A](#aaa) - Authentication, Authorization & Access Control
-- [Integration](#integration) - Integration of services
-- [Administration](#administration) - Administration panel
-- [User Management](#user-management) - User Management
-- [Monitoring & Logs](#monitoring-logs) - Monitoring & Logs
-- [Reports & Analytics](#reports-analytics) - Reports & Analytics
-- [Agent SDks](#agent-sdks) - Agent SDks
+1. [A,A,A](#aaa) - Authentication, Authorization & Access Control
+2. [Integration](#integration) - Integration of services
+3. [Administration](#administration) - Administration panel
+4. [User Management](#user-management) - User Management
+5. [Monitoring & Logs](#monitoring-logs) - Monitoring & Logs
+6. [Reports & Analytics](#reports-analytics) - Reports & Analytics
+7. [Agent SDks](#agent-sdks) - Agent SDks
 
 ## <a name="aaa"></a> A,A,A
 This stands for Authentication(to identify), Authorization(to give permission), and Access Control (to giving access), which are the three main functions of a CIAM system. Authentication is the process of verifying the identity of a user or device, usually by requiring the user to provide login credentials (such as a username and password). Authorization is the process of granting or denying access to resources based on the user's identity and permissions. Accounting is the process of keeping track of user actions and resource usage for the purpose of security and compliance.
