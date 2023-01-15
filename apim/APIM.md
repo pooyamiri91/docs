@@ -1,6 +1,6 @@
-# Sourena API Management (SAMP)
+# API Management (APIM)
 
-## <a name="SAMP"></a> SAMP key components
+## <a name="APIM"></a> APIM key components
 
 - [Developer Portal](#developer-portal) - Developer Portal
 - [Monetization](#monetization) - Monetization
@@ -27,7 +27,7 @@ resources such as a knowledge base and community forums, SDK
 9. Lifecycle management
 
 for more detail see:
-[Developer Portal](/samp/components/developer-portal.md)
+[Developer Portal](/apim/components/developer-portal.md)
 
 
 ## <a name="monetization"></a> Monetization
@@ -44,7 +44,7 @@ currency conversions.
 - Legal and compliance
 -
 for more detail see:
-[Monetization](/samp/components/monetization.md)
+[Monetization](/apim/components/monetization.md)
 
 ## <a name="gateway"></a> Gateway
 
@@ -60,7 +60,7 @@ receives requests from API consumers and forwards them to the appropriate API pr
 7. Logs & Metrics
 
 for more detail see:
-[Gateway](/samp/components/gateway.md)
+[Gateway](/apim/components/gateway.md)
 
 ## <a name="api-store"></a> API Store
 
@@ -97,7 +97,7 @@ notifications when certain thresholds or conditions are met.
 3. Monitoring
 
 for more detail see:
-[Monitoring & Logs](/samp/components/monitoring-logs.md)
+[Monitoring & Logs](/apim/components/monitoring-logs.md)
 
 ## <a name="reports-analytics"></a> Reports & Analytics
 
@@ -111,4 +111,4 @@ to gain valuable insights on how businesses can improve their performance.
 4. Integration
 
 for more detail see:
-[Reports & Analytics](/samp/components/reports-analytics.md)
+[Reports & Analytics](/apim/components/reports-analytics.md)

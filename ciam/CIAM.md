@@ -1,4 +1,4 @@
-# Pavan Customer Identity and Access Management (CIAM)
+# Customer Identity and Access Management (CIAM)
 
 CIAM stands for Customer Identity and Access Management. It is a set of processes and technologies that enable an organization to manage the digital identities of its customers and control their access to its applications and services.
 
