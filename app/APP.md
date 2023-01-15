@@ -4,21 +4,21 @@ Application Building API Blocks Platform refers to pre-built, ready-to-use APIs 
 
 ## <a name="CIAM"></a> Application Building API Blocks Platform
 
-1. [Gamification](#sms) - Gamification 
-2. [File Manager](#ussd) - File Manager
-3. [QR Code](#push) - QR Code
-4. [Contents](#email) - Contents
-5. [Campaign](#messaging-chat) - Campaign
-6. [Wallet](#voice-video) - Wallet
-7. [Billing](#analytics-reporting) - Billing
-8. [Payment Gateway](#sms) - Payment Gateway
-9. [Delivery](#sms) - Delivery
-10. [Survey](#sms) - Survey
-11. [Social Metrics](#sms) - Social Metrics
-12. [App Data Management](#sms) - App Data Management
-13. [App Versioning](#sms) - App Versioning
-14. [Support](#sms) - Support
-15. [FAQ](#sms) - FAQ
+1. [Gamification](#gamification) - Gamification 
+2. [File Manager](#file-manager) - File Manager
+3. [QR Code](#qr-code) - QR Code
+4. [Contents](#content) - Contents
+5. [Campaign](#campain) - Campaign
+6. [Wallet](#wallet) - Wallet
+7. [Billing](#billing) - Billing
+8. [Payment Gateway](#payment-gateway) - Payment Gateway
+9. [Delivery](#delivery) - Delivery
+10. [Survey](#survey) - Survey
+11. [Social Metrics](#social-metrics) - Social Metrics
+12. [App Data Management](#app-data-management) - App Data Management
+13. [App Versioning](#app-versioning) - App Versioning
+14. [Support](#support) - Support
+15. [FAQ](#faq) - FAQ
 
 
 ## <a name="gamification"></a> Gamification
