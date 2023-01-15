@@ -1,6 +1,6 @@
-# Application Building API Blocks Platform (AAP)
+# Application Building, API Blocks Platform (AAP)
 
-Application Building API Blocks Platform refers to pre-built, ready-to-use APIs that can be used to quickly and easily add new functionalities to applications. These API blocks can include a wide range of functionalities that are commonly used in application development, such as:
+Application Building, API Blocks Platform refers to pre-built, ready-to-use APIs that can be used to quickly and easily add new functionalities to applications. These API blocks can include a wide range of functionalities that are commonly used in application development, such as:
 
 ## <a name="CIAM"></a> Application Building API Blocks Platform
 
@@ -19,7 +19,6 @@ Application Building API Blocks Platform refers to pre-built, ready-to-use APIs 
 13. [App Versioning](#app-versioning) - App Versioning
 14. [Support](#support) - Support
 15. [FAQ](#faq) - FAQ
-
 
 ## <a name="gamification"></a> Gamification
 Gamification: An API block that allows developers to add game-like elements and mechanics to their application, such as points, badges, leaderboards, and challenges.
