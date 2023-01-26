@@ -1,14 +1,15 @@
 # CIAM Menu
 
 1. Application
-    1. Application
-       - plan
-       - config
-       - custom domain
-    2. Clients
-       - web
-       - android
-       - ios
+   1. Application
+      - plan
+      - config
+      - custom domain
+   2. Clients
+         - web
+         - android
+         - ios
+   3. Settings
 2. User Management
    1. Users
    2. profiles
@@ -24,26 +25,37 @@
 4. Authorization
    1. Roles
    2. Privilege
-5. Organization
-   1. Organization Structure
-   2. Members
-6. Integration
-    1. SMS Provider
-    2. Email Provider
-    3. Service Integration
-7. Security 
-   1. MFA 
+   3. Resource Group
+   4. Resource
+   5. Resource Template
+5. Security 
+   1. Authentication Security
+   2. Session Management
+   3. MFA 
       - WebAuthn with FIDO Security Keys
       - Use WebAuthn-compliant device biometrics
       - One-time Password
       - Push Notification using Auth0 Guardian
       - Phone Message
       - Email Code
-   2. Attack Protection
+   4. Attack Protection
       - Bot Detection 
       - Suspicious IP Throttling
       - Brute-force Protection
       - Breached Password Detection
-   3. Recovery
+   5. Recovery
       - Questions
       - Recovery Code
+6. Organization
+   1. Organization Structure
+   2. Members
+7. Integration
+   1. SMS Provider
+   2. Email Provider
+   3. Service Integration
+8. Billing
+   1. Subscription 
+   2. Billing 
+   3. Payments
+9. Monitoring
+   1. Logs
