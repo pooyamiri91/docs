@@ -1,4 +1,4 @@
-# Communication & Notification Platform (CNP)
+# Data Platform (DAP)
 
 A data platform is a system or architecture that allows for the collection, storage, management, and analysis of data. It is the foundation for data-driven decision making and enables organizations to leverage their data to gain insights and drive business outcomes.
 
@@ -15,38 +15,50 @@ A well-designed data platform is a critical component for any organization that 
 
 
 
-1. [SMS](#sms) - SMS (Management, Gateway & Notifications)
-2. [USSD](#ussd) - USSD (Management, Gateway with Menu-Maker)
-3. [Push Notifications](#push-notifications) - Push Notification (Management, Gateway & Device Management)
-4. [Email](#email) - Email Notifications (Management, Gateway & Notifications)
-5. [In-app Messaging](#in-app-messaging) - In-app Messaging
-6. [Web push](#web-push) - Web Push Notification (Management, Gateway & Device Management)
-7. [IVR](#ussd) - USSD Menu Maker (Management, Gateway with Menu-Maker)
-8. [USSD Menu Maker](#ussd) - USSD Menu Maker (Management, Gateway with Menu-Maker)
-9. [Messaging & Chat](#messaging-chat) - Messaging and Chat
-10. [Voice & Video](#voice-video) - Voice and Video
+1. [Data Connectivity](#data_connectivity) - Data Connectivity
+2. [Data Transformation](#data_transformation) - Data Transformation
+3. [Data Cleaning](#data_cleaning) - Data Cleaning
+4. [Visualization Creation](#visualization_creation) - Visualization Creation
+5. [Interactive Visualization](#interactive_visualization) - Interactive Visualization
+6. [Dashboards](#dashboards) - Dashboards
+7. [Data Exploration](#data_exploration) - Data Exploration
+8. [Data Analysis](#data_analysis) - Data Analysis
+9. [Collaboration](#collaboration) - Collaboration
+10. [Low-Code Development](#low-code_development) - Low-Code Development
+11. [Export](#export) - Export
 
 
 ## Features of data visualization and BI tools
 
-1. **Data connectivity:** The ability to connect to various data sources such as SQL databases, NoSQL databases, flat files, APIs, and big data platforms.
+## <a name="data_connectivity"></a>
+1. **Data Connectivity:** The ability to connect to various data sources such as SQL databases, NoSQL databases, flat files, APIs, and big data platforms.
 
-2. **Data transformation and cleaning:** The ability to clean and transform data before visualization.
+## <a name="data_transformation"></a>
+2. **Data Transformation:** The ability to transform data to different database.
 
-3. **Visualization creation:** A wide range of visualization types such as line charts, bar charts, scatter plots, heatmaps, etc.
+## <a name="data_cleaning"></a>
+3. **Data Cleaning:** The ability to clean data before transform & visualization.
 
-4. **Interactive visualization:** The ability to create interactive visualizations that allow users to explore data.
+## <a name="visualization_creation"></a>
+4. **Visualization Creation:** A wide range of visualization types such as line charts, bar charts, scatter plots, heatmaps, etc.
 
-5. **Dashboards:** The ability to create interactive dashboards that allow users to view and explore multiple visualizations at once.
+## <a name="interactive_visualization"></a>
+5. **Interactive Visualization:** The ability to create interactive visualizations that allow users to explore data.
 
-6. **Data exploration:** The ability to explore data with various filtering and aggregation options.
+## <a name="dashboards"></a>
+6. **Dashboards:** The ability to create interactive dashboards that allow users to view and explore multiple visualizations at once.
 
-7. **Data analysis:** The ability to perform various types of data analysis such as statistical analysis and machine learning.
+## <a name="data_exploration"></a>
+7. **Data Exploration:** The ability to explore data with various filtering and aggregation options.
 
-8. **Collaboration:** The ability to share and collaborate on visualizations and dashboards with other users.
+## <a name="data_analysis"></a>
+8. **Data Analysis:** The ability to perform various types of data analysis such as statistical analysis and machine learning.
 
-9. **Low-code development:** The ability for users to create visualizations and dashboards with minimal coding.
+## <a name="collaboration"></a>
+9. **Collaboration:** The ability to share and collaborate on visualizations and dashboards with other users.
 
-10. **Scalability:** The ability to handle large amounts of data and perform complex data analysis.
+## <a name="low-code_development"></a>
+10. **Low-Code Development:** The ability for users to create visualizations and dashboards with minimal coding.
 
+## <a name="export"></a>
 11. **Export:** The ability to export visualizations and dashboards in various formats such as image, pdf, excel.
