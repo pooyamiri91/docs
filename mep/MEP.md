@@ -117,27 +117,22 @@ A software component that generates revenue through various monetization strateg
 2. Advertisements
 3. Pay-Per-View (PPV)
 4. Transaction Management
-5. Revenue Sharing
-6. Digital Rights Management (DRM)
-7. Sponsorship and Brand Integration
-8. Merchandising
-9. Donations and Crowdfunding
-10. Affiliate Marketing
+5. Revenue Sharing 
+6. Sponsorship and Brand Integration
+7. Donations and Crowdfunding
 
 ### <a name="apiIntegrations"></a> 8. **API & Integrations** 
 
 A software component that offers APIs and integrations with other software tools and platforms, such as social media, e-commerce, or customer relationship management (CRM) systems.
 
 1. API Management
-2. Third-Party Integrations
-3. Content Management System (CMS) Integration
-4. Advertising Networks Integration
-5. Social Media Integration
-6. Payment Gateways Integration
-7. Analytics Platforms Integration
-8. Customer Relationship Management (CRM) Integration
-9. Email Marketing Integration
-10. Video Player Integration
+2. Third-Party Integrations 
+3. Advertising Networks Integration
+4. Social Media Integration
+5. Payment Gateways Integration
+6. Analytics Platforms Integration
+7. CRM Integration
+8. Third-Party Marketing Integration
 
 ### <a name="social"></a> 9. **Social Features** 
 
