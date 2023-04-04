@@ -15,6 +15,7 @@ Media hub platforms can vary in their capabilities and features, depending on th
 7. [Monetization](#monetization) - Monetization
 8. [API & Integrations](#apiIntegrations) - API & Integrations
 9. [Social Features](#social) - Social Features
+9. [User Website](#website) - Website
 
 
 ### Features of Media Hub Platform
@@ -124,8 +125,9 @@ A software component that generates revenue through various monetization strateg
 4. Transaction Management
 5. Revenue Sharing 
 6. Sponsorship and Brand Integration
-7. Donations and Crowdfunding
-8. Different IPG and Payment Method
+7. Discount & Promotion 
+8. Donations and Crowdfunding
+9. Different IPG and Payment Method
 
 ### <a name="apiIntegrations"></a> 8. **API & Integrations** 
 
@@ -152,3 +154,37 @@ A software component that offers social features such as commenting, sharing, li
 6. Like 
 7. Report
 8. Social Sharing Widgets
+
+
+### <a name="website"></a> 10. **User Website pages**
+
+1. Home
+2. Browse
+3. Search
+4. Category
+5. Channel
+6. Playlist
+7. Series
+8. Season
+9. Featured
+10. Trending
+11. Popular
+12. New releases
+13. Recommendations
+14. Watchlist
+15. History
+16. Subscriptions
+17. Settings
+18. Profile
+19. Notifications
+20. Help & Support
+21. Embed player
+22. Content page
+23. Cast and crew
+24. Sign-in / Sign-up
+25. Campaign
+26. Report and feedback
+27. Upload
+28. Monetization
+29. Analytics
+30. API & Integrations
