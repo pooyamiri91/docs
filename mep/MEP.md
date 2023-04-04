@@ -158,33 +158,25 @@ A software component that offers social features such as commenting, sharing, li
 
 ### <a name="website"></a> 10. **User Website pages**
 
-1. Home
-2. Browse
-3. Search
-4. Category
-5. Channel
-6. Playlist
-7. Series
-8. Season
-9. Featured
-10. Trending
-11. Popular
-12. New releases
-13. Recommendations
-14. Watchlist
-15. History
-16. Subscriptions
-17. Settings
-18. Profile
-19. Notifications
-20. Help & Support
-21. Embed player
-22. Content page
-23. Cast and crew
-24. Sign-in / Sign-up
-25. Campaign
-26. Report and feedback
-27. Upload
-28. Monetization
-29. Analytics
-30. API & Integrations
+1. Home 
+2. Upload
+3. Embed player
+4. Monetization
+5. Content page
+6. Category
+7. Search
+8. Channel
+9. Playlist
+10. Featured
+11. Trending
+12. Popular
+13. New releases
+14. Recommendations
+15. Watchlist
+16. History
+17. Subscriptions
+18. Settings
+19. Profile
+20. Notifications
+21. Help & Support
+22. Report and feedback
