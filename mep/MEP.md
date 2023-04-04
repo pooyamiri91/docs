@@ -55,7 +55,7 @@ A software component that manages the storage, organization, and delivery of the
 
 1. Digital Asset Management (DAM)
 2. Content Creation and Publishing
-3. Workflow Automation
+3. Media Publish Automation
 4. User Management and Permissions
 5. Metadata Management
 6. Search and Retrieval
@@ -75,7 +75,7 @@ Ad Management involves managing the process of creating, scheduling, and trackin
 5. Reporting and Analytics
 6. Integration with Third-Party Ad Networks
 7. Ad Formats and Ad Unit Management
-8. Ad Operations and Workflow Management
+8. Ad Operations
 9. Ad Auctions and Bidding
 10. Ad Fraud Prevention and Detection
 
@@ -86,7 +86,7 @@ A software component that allows users to watch the video content on the platfor
 1. Video Playback
 2. Adaptive Bitrate Streaming (ABR)
 3. Closed Captioning
-4. User Interface (UI) Customization
+4. Dash, HLS, Live stream support
 5. Video Quality Control
 6. Audio Control
 7. Analytics and Reporting
@@ -146,10 +146,8 @@ A software component that offers social features such as commenting, sharing, li
 1. User Profiles and Accounts
 2. Social Sign-In and Sharing
 3. User-generated Content (UGC) Management
-4. Comments and Ratings
-5. Social Groups and Communities
-6. Social Listening and Monitoring
-7. Social Authentication and Authorization
-8. Social Network Integration
-9. Social Messaging and Chat
-10. Social Sharing Widgets
+4. Comments & reply
+5. Ratings
+6. Like 
+7. Report
+8. Social Sharing Widgets
