@@ -9,11 +9,12 @@ Media hub platforms can vary in their capabilities and features, depending on th
 1. [CIAM](#ciam) - CIAM (Customer Identity and Access Management)
 2. [Media Server](#mediaServer) - Media Server
 3. [Content & Media Management System](#cmms) - Content & Media Management System
-4. [Video Player](#videoPlayer) - Video Player
-5. [Analytics & Reporting](#aR) - Analytics & Reporting
-6. [Monetization](#monetization) - Monetization
-7. [API & Integrations](#apiIntegrations) - API & Integrations
-8. [Social Features](#social) - Social Features
+4. [adManagement](#ad) - adManagement
+5. [Video Player](#videoPlayer) - Video Player
+6. [Analytics & Reporting](#aR) - Analytics & Reporting
+7. [Monetization](#monetization) - Monetization
+8. [API & Integrations](#apiIntegrations) - API & Integrations
+9. [Social Features](#social) - Social Features
 
 
 ### Features of Media Hub Platform
@@ -63,7 +64,22 @@ A software component that manages the storage, organization, and delivery of the
 9. Analytics and Reporting
 10. Integration with Other Systems
 
-### <a name="videoPlayer"></a> 4. **Video Player**
+### <a name="ad"></a> 4. **Ad Management**
+
+Ad Management involves managing the process of creating, scheduling, and tracking advertisements, as well as analyzing their performance. The Ad Manager component may include features such as targeting, creative management, reporting, and integration with third-party ad networks.
+
+1. Ad Inventory Management
+2. Ad Scheduling and Delivery
+3. Targeting and Segmentation
+4. Creative Management
+5. Reporting and Analytics
+6. Integration with Third-Party Ad Networks
+7. Ad Formats and Ad Unit Management
+8. Ad Operations and Workflow Management
+9. Ad Auctions and Bidding
+10. Ad Fraud Prevention and Detection
+
+### <a name="videoPlayer"></a> 5. **Video Player**
 
 A software component that allows users to watch the video content on the platform.
 
@@ -78,7 +94,7 @@ A software component that allows users to watch the video content on the platfor
 9. Mobile Compatibility
 10. Video Advertising
 
-### <a name="aR"></a> 5. **Analytics & Reporting** 
+### <a name="aR"></a> 6. **Analytics & Reporting** 
 
 A software component that tracks user behavior and engagement on the platform, providing insights on content performance, user demographics, and other key metrics.
 
@@ -93,7 +109,7 @@ A software component that tracks user behavior and engagement on the platform, p
 9. Campaign Performance Tracking
 10. Predictive Analytics
 
-### <a name="monetization"></a> 6. **Monetization**
+### <a name="monetization"></a> 7. **Monetization**
 
 A software component that generates revenue through various monetization strategies, such as advertising, subscriptions, pay-per-view, or transactional fees.
 
@@ -108,7 +124,7 @@ A software component that generates revenue through various monetization strateg
 9. Donations and Crowdfunding
 10. Affiliate Marketing
 
-### <a name="apiIntegrations"></a> 7. **API & Integrations** 
+### <a name="apiIntegrations"></a> 8. **API & Integrations** 
 
 A software component that offers APIs and integrations with other software tools and platforms, such as social media, e-commerce, or customer relationship management (CRM) systems.
 
@@ -123,7 +139,7 @@ A software component that offers APIs and integrations with other software tools
 9. Email Marketing Integration
 10. Video Player Integration
 
-### <a name="social"></a> 8. **Social Features** 
+### <a name="social"></a> 9. **Social Features** 
 
 A software component that offers social features such as commenting, sharing, liking, and following, which encourage user engagement and promote content discovery.
 
