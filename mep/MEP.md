@@ -39,14 +39,13 @@ A software component that stores and delivers multimedia content, such as video 
 
 1. Video Encoding
 2. Video Streaming
-3. Video Transcoding
-4. Content Delivery Network (CDN)
-5. Adaptive Bitrate Streaming (ABR)
-6. Video Player
-7. Content Management System (CMS)
-8. Content Security
-9. Metadata Management
-10. Live Streaming
+3. Video Transcoding 
+4. Adaptive Bitrate Streaming (ABR)
+5. Video Player 
+6. Content Security
+7. Metadata Management
+8. Live Streaming
+9. RTMP, RTSP, MP4 and HLS support
 
 
 ### <a name="cmms"></a> 3. **Content & Media Management System** 
@@ -55,14 +54,26 @@ A software component that manages the storage, organization, and delivery of the
 
 1. Digital Asset Management (DAM)
 2. Content Creation and Publishing
-3. Media Publish Automation
-4. User Management and Permissions
-5. Metadata Management
-6. Search and Retrieval
-7. Version Control
-8. Content Distribution
-9. Analytics and Reporting
-10. Integration with Other Systems
+3. Media Publish Automation 
+4. Metadata Management
+   - Title
+   - Description
+   - Creator
+   - Date created
+   - Date modified
+   - Type
+   - Format
+   - Size
+   - Duration
+   - Resolution
+   - Language
+   - Keywords
+   - Location
+   - Copyright
+   - License
+5. Search and Retrieval
+6. Content Distribution
+7. Integration with Third-Party Systems
 
 ### <a name="ad"></a> 4. **Ad Management**
 
@@ -70,14 +81,13 @@ Ad Management involves managing the process of creating, scheduling, and trackin
 
 1. Ad Inventory Management
 2. Ad Scheduling and Delivery
-3. Targeting and Segmentation
-4. Creative Management
-5. Reporting and Analytics
-6. Integration with Third-Party Ad Networks
-7. Ad Formats and Ad Unit Management
-8. Ad Operations
-9. Ad Auctions and Bidding
-10. Ad Fraud Prevention and Detection
+3. Targeting and Segmentation 
+4. Creative Management 
+5. Ad Formats and Ad Unit Management
+6. Ad Operations
+7. Ad Auctions and Bidding
+8. Ad Fraud Prevention and Detection
+9. Integration with Third-Party Ad Networks
 
 ### <a name="videoPlayer"></a> 5. **Video Player**
 
@@ -86,28 +96,23 @@ A software component that allows users to watch the video content on the platfor
 1. Video Playback
 2. Adaptive Bitrate Streaming (ABR)
 3. Closed Captioning
-4. Dash, HLS, Live stream support
+4. Dash, HLS, stream support
 5. Video Quality Control
 6. Audio Control
 7. Analytics and Reporting
 8. Social Sharing
-9. Mobile Compatibility
-10. Video Advertising
+9. Video Advertising 
+10. Android, iOS, Web Compatibility
 
 ### <a name="aR"></a> 6. **Analytics & Reporting** 
 
 A software component that tracks user behavior and engagement on the platform, providing insights on content performance, user demographics, and other key metrics.
 
-1. Data Collection and Integration
+1. Data Collection 
 2. Data Visualization
 3. Real-Time Analytics
 4. Historical Analytics
 5. Custom Reporting
-6. A/B Testing
-7. Funnel Analysis
-8. User Behavior Tracking
-9. Campaign Performance Tracking
-10. Predictive Analytics
 
 ### <a name="monetization"></a> 7. **Monetization**
 
@@ -120,6 +125,7 @@ A software component that generates revenue through various monetization strateg
 5. Revenue Sharing 
 6. Sponsorship and Brand Integration
 7. Donations and Crowdfunding
+8. Different IPG and Payment Method
 
 ### <a name="apiIntegrations"></a> 8. **API & Integrations** 
 
