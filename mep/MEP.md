@@ -15,7 +15,7 @@ Media hub platforms can vary in their capabilities and features, depending on th
 7. [Monetization](#monetization) - Monetization
 8. [API & Integrations](#apiIntegrations) - API & Integrations
 9. [Social Features](#social) - Social Features
-9. [User Website](#website) - Website
+10. [User Website](#website) - Website
 
 
 ### Features of Media Hub Platform
