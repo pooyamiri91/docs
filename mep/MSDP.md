@@ -1,10 +1,10 @@
-# Media Hub Platform (MEP)
+# Media Service Delivery Platform (MSDP)
 
-A Media Hub Platform is a software system that provides a centralized hub for managing and delivering multimedia content, such as videos, audio files, and images, to end-users. It typically includes features such as media storage, content management, transcoding, delivery, and user access controls.
+A Media Service Delivery Platform is a software solution system that provides a centralized hub for managing and delivering multimedia content, such as videos, audio files, and images, to end-users. It typically includes features such as media storage, content management, transcoding, delivery, and user access controls.
 
-Media hub platforms are used by businesses, organizations, and content creators to manage and distribute their multimedia content to various channels and devices, such as websites, mobile apps, and social media platforms. They can be used for a variety of purposes, such as digital asset management, marketing, e-learning, and entertainment.
+MSDP are used by businesses, organizations, and content creators to manage and distribute their multimedia content to various channels and devices, such as websites, mobile apps, and social media platforms. They can be used for a variety of purposes, such as digital asset management, marketing, e-learning, and entertainment.
 
-Media hub platforms can vary in their capabilities and features, depending on the needs and requirements of the users. Some platforms may focus on specific types of media, such as video or audio, while others may offer a broader range of content formats. They may also offer different monetization options, such as subscriptions, pay-per-view, or advertising, to generate revenue from their content.
+It also can vary in their capabilities and features, depending on the needs and requirements of the users. Some platforms may focus on specific types of media, such as video or audio, while others may offer a broader range of content formats. They may also offer different monetization options, such as subscriptions, pay-per-view, or advertising, to generate revenue from their content.
 
 1. [CIAM](#ciam) - CIAM (Customer Identity and Access Management)
 2. [Media Server](#mediaServer) - Media Server
@@ -16,9 +16,10 @@ Media hub platforms can vary in their capabilities and features, depending on th
 8. [API & Integrations](#apiIntegrations) - API & Integrations
 9. [Social Features](#social) - Social Features
 10. [User Website](#website) - Website
+11. [Content Delivery Network (CDN) ](#cdn) - Content Delivery Network (CDN)
 
 
-### Features of Media Hub Platform
+### Features of Media Service Delivery Platform
 
 ### <a name="ciam"></a> 1. **CIAM (Customer Identity and Access Management)** 
 
@@ -41,6 +42,7 @@ A software component that stores and delivers multimedia content, such as video 
 1. Video Encoding
 2. Video Streaming
 3. Video Transcoding 
+   1. Multiple quality
 4. Adaptive Bitrate Streaming (ABR)
 5. Video Player 
 6. Content Security
@@ -54,7 +56,10 @@ A software component that stores and delivers multimedia content, such as video 
 A software component that manages the storage, organization, and delivery of the multimedia content. This may include search functionality to help users find specific content.
 
 1. Digital Asset Management (DAM)
-2. Content Creation and Publishing
+2. Content Creation and Uploading 
+   1. Web
+   2. App
+   3. API
 3. Media Publish Automation 
 4. Metadata Management
    - Title
@@ -72,6 +77,8 @@ A software component that manages the storage, organization, and delivery of the
    - Location
    - Copyright
    - License
+   - resume
+   - history
 5. Search and Retrieval
 6. Content Distribution
 7. Integration with Third-Party Systems
@@ -98,12 +105,13 @@ A software component that allows users to watch the video content on the platfor
 2. Adaptive Bitrate Streaming (ABR)
 3. Closed Captioning
 4. Dash, HLS, stream support
-5. Video Quality Control
-6. Audio Control
-7. Analytics and Reporting
-8. Social Sharing
-9. Video Advertising 
-10. Android, iOS, Web Compatibility
+5. Video Quality Control 
+6. Video highlight position
+7. Audio Control
+8. Analytics and Reporting
+9. Social Sharing
+10. Video Advertising 
+11. Android, iOS, Web Compatibility
 
 ### <a name="aR"></a> 6. **Analytics & Reporting** 
 
@@ -121,6 +129,9 @@ A software component that generates revenue through various monetization strateg
 
 1. Subscription Management
 2. Advertisements
+   1. Ads (Enable/Disable)
+   2. Skippable Adverstisments (Enable/Disable)
+   3. Stream Advertismetns (Enable/Disable)
 3. Pay-Per-View (PPV)
 4. Transaction Management
 5. Revenue Sharing 
@@ -150,10 +161,11 @@ A software component that offers social features such as commenting, sharing, li
 2. Social Sign-In and Sharing
 3. User-generated Content (UGC) Management
 4. Comments & reply
-5. Ratings
-6. Like 
-7. Report
-8. Social Sharing Widgets
+5. Favorite
+6. Ratings
+7. Like 
+8. Report
+9. Social Sharing Widgets
 
 
 ### <a name="website"></a> 10. **User Website pages**
@@ -169,14 +181,31 @@ A software component that offers social features such as commenting, sharing, li
 9. Playlist
 10. Featured
 11. Trending
-12. Popular
+12. Popular / Top Rated
 13. New releases
-14. Recommendations
-15. Watchlist
-16. History
-17. Subscriptions
-18. Settings
-19. Profile
-20. Notifications
-21. Help & Support
-22. Report and feedback
+14. Most Replayed
+15. Recommendations
+16. Watchlist
+17. History
+18. Subscriptions
+19. Settings
+20. Profile
+21. Notifications
+22. Help & Support
+23. Report and feedback
+
+
+### <a name="cdn"></a> 11. **Content Delivery Network (CDN)**
+
+CDN is responsible for delivering media content efficiently to end-users by caching and distributing the content across a network of servers located in different geographic locations. This helps in reducing latency, improving load times, and ensuring a seamless experience for users. In a MSDP, CDN is typically used to deliver large video and audio files, live streams, and other media content to users.
+
+| Component | Description |
+|-----------|-------------|
+| Edge Servers | Edge servers are geographically distributed servers that are used to cache content closer to the end-users, reducing latency and improving delivery speed. |
+| Origin Server | The origin server is the original source of the content, and it is responsible for storing and distributing the content to the edge servers. |
+| Load Balancer | The load balancer is responsible for distributing incoming requests to multiple servers to ensure that no single server becomes overloaded. |
+| Anycast | Anycast is a network addressing and routing methodology that allows multiple servers to share the same IP address. It helps to distribute traffic across multiple servers and reduce latency. |
+| Caching | Caching involves storing frequently accessed content on the edge servers, so that it can be served faster to the end-users, reducing latency and improving the overall user experience. |
+| Content Routing | Content routing involves directing users to the nearest edge server based on their geographical location or network conditions, improving delivery speed and reducing latency. |
+| Analytics | Analytics involves collecting and analyzing data on the performance of the CDN, including metrics such as delivery speed, traffic volume, and user behavior, to optimize the performance of the CDN. |
+| Security | CDN security involves protecting the content and the infrastructure from various security threats, such as DDoS attacks, data breaches, and unauthorized access. |
