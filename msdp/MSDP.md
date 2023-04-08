@@ -20,9 +20,10 @@ It also can vary in their capabilities and features, depending on the needs and 
 11. [Content Delivery Network (CDN) ](#cdn) - Content Delivery Network (CDN)
 
 
-### Features of Media Service Delivery Platform
+## Features of Media Service Delivery Platform
 
-### <a name="ciam"></a> 1. **CIAM (Customer Identity and Access Management)** 
+### <a name="ciam"></a> 
+### 1. CIAM (Customer Identity and Access Management)
 
 A software component that manages user accounts, access controls, and permissions on the platform.
 
