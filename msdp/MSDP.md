@@ -9,7 +9,7 @@ It also can vary in their capabilities and features, depending on the needs and 
 1. [CIAM](#ciam) - CIAM (Customer Identity and Access Management)
 2. [Media Server](#mediaServer) - Media Server
 3. [Content & Media Management System](#cmms) - Content & Media Management System
-4. [adManagement](#ad) - adManagement
+4. [AdsManagement](#ads) - Ads Management
 5. [Video Player](#videoPlayer) - Video Player
 6. [Analytics & Reporting](#aR) - Analytics & Reporting
 7. [Monetization](#monetization) - Monetization
@@ -83,7 +83,7 @@ A software component that manages the storage, organization, and delivery of the
 6. Content Distribution
 7. Integration with Third-Party Systems
 
-### <a name="ad"></a> 4. **Ad Management**
+### <a name="ads"></a> 4. **Ad Management**
 
 Ad Management involves managing the process of creating, scheduling, and tracking advertisements, as well as analyzing their performance. The Ad Manager component may include features such as targeting, creative management, reporting, and integration with third-party ad networks.
 
