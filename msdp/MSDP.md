@@ -8,13 +8,13 @@ It also can vary in their capabilities and features, depending on the needs and 
 
 
 1. [CIAM](#ciam) - CIAM (Customer Identity and Access Management)
-2. [Media Server](#mediaServer) - Media Server
+2. [Media Server](#media-server) - Media Server
 3. [Content & Media Management System](#cmms) - Content & Media Management System
 4. [AdsManagement](#ads) - Ads Management
-5. [Video Player](#videoPlayer) - Video Player
+5. [Video Player](#video-player) - Video Player
 6. [Analytics & Reporting](#aR) - Analytics & Reporting
 7. [Monetization](#monetization) - Monetization
-8. [API & Integrations](#apiIntegrations) - API & Integrations
+8. [API & Integrations](#api-integrations) - API & Integrations
 9. [Social Features](#social) - Social Features
 10. [User Website](#website) - Website
 11. [Content Delivery Network (CDN) ](#cdn) - Content Delivery Network (CDN)
@@ -37,8 +37,7 @@ A software component that manages user accounts, access controls, and permission
 8. User Segmentation
 9. Session & Password Management
 
-### <a name="mediaServer"></a>
-### 2. Media Server
+### <a name="media-server"></a> 2. Media Server
 
 A software component that stores and delivers multimedia content, such as video and audio files, to end-users. This may include transcoding capabilities to optimize content for different devices and network conditions.
 
@@ -100,7 +99,7 @@ Ad Management involves managing the process of creating, scheduling, and trackin
 8. Ad Fraud Prevention and Detection
 9. Integration with Third-Party Ad Networks
 
-### <a name="videoPlayer"></a> 5. **Video Player**
+### <a name="video-player"></a> 5. **Video Player**
 
 A software component that allows users to watch the video content on the platform.
 
@@ -143,7 +142,7 @@ A software component that generates revenue through various monetization strateg
 8. Donations and Crowdfunding
 9. Different IPG and Payment Method
 
-### <a name="apiIntegrations"></a> 8. **API & Integrations** 
+### <a name="api-integrations"></a> 8. **API & Integrations** 
 
 A software component that offers APIs and integrations with other software tools and platforms, such as social media, e-commerce, or customer relationship management (CRM) systems.
 
