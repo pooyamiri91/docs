@@ -38,7 +38,7 @@ A software component that manages user accounts, access controls, and permission
 9. Session & Password Management
 
 ### <a name="mediaServer"></a>
-### 2. **Media Server** 
+### 2. Media Server
 
 A software component that stores and delivers multimedia content, such as video and audio files, to end-users. This may include transcoding capabilities to optimize content for different devices and network conditions.
 
