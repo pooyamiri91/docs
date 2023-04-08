@@ -6,6 +6,7 @@ MSDP are used by businesses, organizations, and content creators to manage and d
 
 It also can vary in their capabilities and features, depending on the needs and requirements of the users. Some platforms may focus on specific types of media, such as video or audio, while others may offer a broader range of content formats. They may also offer different monetization options, such as subscriptions, pay-per-view, or advertising, to generate revenue from their content.
 
+
 1. [CIAM](#ciam) - CIAM (Customer Identity and Access Management)
 2. [Media Server](#mediaServer) - Media Server
 3. [Content & Media Management System](#cmms) - Content & Media Management System
