@@ -10,13 +10,30 @@ A Communication and Notification Management Platform is a system that allows org
 6. [Web push](#web-push) - Web Push Notification (Management, Gateway & Device Management)
 7. [IVR](#ivr) - IVR; Interactive Voice Response(Management, Gateway with Menu-Maker)
 
-
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
 
 ## <a name="sms"></a> 1. SMS
 SMS management, allows for the sending and receiving of text messages, including support for scheduling and personalization.
 
 ## <a name="ussd"></a> 2. USSD
 USSD management, allows for the sending and receiving of messages and other forms of communication over the mobile network using short codes.
+
+                Main Menu
+                    |
+      --------------------------------
+      |                |             |
+    Option 1       Option 2      Option 3
+      |                |             |
+    --------       ---------       ----- 
+    |      |      |        |     |        |
+    Option A       Option B       Option C
+
 
 ## <a name="push-notifications"></a> 3. Push Notifications
 Push notifications: Allows for the sending of push notifications to mobile devices, including support for scheduling and targeting specific user segments.
