@@ -7,11 +7,10 @@
       B-->D;
       C-->D;
 ```
-@startuml component
-actor client
-node app
-database db
 
-db -> app
-app -> client
-@enduml
+```mermaid
+pie title Pets adopted by volunteers
+"Dogs" : 386
+"Cats" : 85
+"Rats" : 15
+```
