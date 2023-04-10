@@ -10,14 +10,6 @@ A Communication and Notification Management Platform is a system that allows org
 6. [Web push](#web-push) - Web Push Notification (Management, Gateway & Device Management)
 7. [IVR](#ivr) - IVR; Interactive Voice Response(Management, Gateway with Menu-Maker)
 
-```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
-```
-
 ## <a name="sms"></a> 1. SMS
 SMS management, allows for the sending and receiving of text messages, including support for scheduling and personalization.
 
