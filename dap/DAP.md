@@ -1,4 +1,4 @@
-# Data Platform (DAP)
+# Raya Data Management Platform (RDMP) 
 
 A data platform is a system or architecture that allows for the collection, storage, management, and analysis of data. It is the foundation for data-driven decision making and enables organizations to leverage their data to gain insights and drive business outcomes.
 

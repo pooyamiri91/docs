@@ -1,0 +1,78 @@
+@startuml
+
+!define ICONURL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/v2.1.0
+
+!define AWSICONURL https://raw.githubusercontent.com/rabelenda/cicon-aws/v2.0.0
+
+
+title Software Architecture
+
+!define WEB_APP [Web Application] <<(W, #5cb85c)>>
+!define API_GATEWAY [API Gateway] <<(G, #5cb85c)>>
+!define LOAD_BALANCER [Load Balancer] <<(LB, #5cb85c)>>
+!define AUTO_SCALING_GROUP [Auto Scaling Group] <<(ASG, #5cb85c)>>
+!define INSTANCE [Instance] <<(I, #0275d8)>>
+!define DB_CLUSTER [Database Cluster] <<(DC, #6f42c1)>>
+!define CACHE_CLUSTER [Cache Cluster] <<(CC, #fd7e14)>>
+!define MESSAGE_QUEUE [Message Queue] <<(MQ, #d9534f)>>
+
+!define AWS_STORAGE [AWS Storage] <<(S, #5cb85c)>>
+!define AWS_COMPUTE [AWS Compute] <<(C, #0275d8)>>
+!define AWS_DATABASE [AWS Database] <<(D, #6f42c1)>>
+!define AWS_MESSAGING [AWS Messaging] <<(M, #d9534f)>>
+
+!define APP [App] <<(A, #0275d8)>>
+
+!define GITHUB [GitHub] <<(G, #6f42c1)>>
+!define JENKINS [Jenkins] <<(J, #d9534f)>>
+
+package "Web Application Layer" {
+    WEB_APP as web_app
+    API_GATEWAY as api_gateway
+    LOAD_BALANCER as lb
+    AUTO_SCALING_GROUP as asg
+
+    APP as app1
+    APP as app2
+
+    web_app -- api_gateway
+    api_gateway -- lb
+    lb -- asg
+    asg --> app1
+    asg --> app2
+}
+
+package "Database Layer" {
+    DB_CLUSTER as db_cluster
+    CACHE_CLUSTER as cache_cluster
+    MESSAGE_QUEUE as message_queue
+
+    AWS_DATABASE as aws_db
+
+    db_cluster -- aws_db
+    aws_db -- cache_cluster
+    aws_db -- message_queue
+}
+
+package "AWS Services" {
+    AWS_STORAGE as aws_storage
+    AWS_COMPUTE as aws_compute
+    AWS_DATABASE as aws_database
+    AWS_MESSAGING as aws_messaging
+
+    aws_storage -- aws_compute
+    aws_compute -- aws_database
+    aws_messaging -- aws_compute
+}
+
+package "Tools" {
+    GITHUB as github
+    JENKINS as jenkins
+
+    github -- app1
+    github -- app2
+    jenkins -- app1
+    jenkins -- app2
+}
+
+@enduml
