@@ -1,11 +1,18 @@
 @startuml
 !include ../resources/C4-PlantUML-2.6.0/C4_Container.puml
-!define SPRITESURL https://raw.githubusercontent.com/rabelenda/cicon-plantuml-sprites/v1.0/sprites
+!include  ../resources/cicon-plantuml-sprites-1.0/sprites/tomcat.puml
+!include  ../resources/cicon-plantuml-sprites-1.0/sprites/kafka.puml
+!include  ../resources/cicon-plantuml-sprites-1.0/sprites/java.puml
+!include  ../resources/cicon-plantuml-sprites-1.0/sprites/cassandra.puml
 
-!includeurl SPRITESURL/tomcat.puml
-!includeurl SPRITESURL/kafka.puml
-!includeurl SPRITESURL/java.puml
-!includeurl SPRITESURL/cassandra.puml
+'!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+'!define SPRITESURL https://raw.githubusercontent.com/rabelenda/cicon-plantuml-sprites/v1.0/sprites
+
+'!includeurl SPRITESURL/tomcat.puml
+'!includeurl SPRITESURL/kafka.puml
+'!includeurl SPRITESURL/java.puml
+'!includeurl SPRITESURL/cassandra.puml
 
 ' uncomment the following line and comment the first to use locally
 ' !include C4_Container.puml

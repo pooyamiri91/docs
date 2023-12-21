@@ -1,4 +1,5 @@
-# Rira Communication & Notification Management Platform (RCNP)
+# Communication & Notification Platform (RCNP)
+## Rira
 
 A Communication and Notification Management Platform is a system that allows organizations or individuals to send and receive messages, notifications, and other forms of communication. This can include email, SMS, push notifications, in-app messaging, and other forms of digital communication. Such a platform may also include tools for managing and organizing these communications, such as message templates, scheduling, and analytics. It can be used for internal communication, customer communication, marketing communication and many more.
 
