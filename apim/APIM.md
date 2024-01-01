@@ -9,6 +9,7 @@
 5. [Security](#security-policies) - Security & Policies
 6. [Monitoring & Logs](#monitoring-logs) - Monitoring & Logs
 7. [Reports & Analytics](#reports-analytics) - Reports & Analytics
+8. [SLA](#SLA) - Service Level Agreement
 
 ## <a name="developer-portal"></a> Developer Portal
 
@@ -42,7 +43,7 @@ currency conversions.
 - Revenue management
 - Partner management
 - Legal and compliance
--
+
 for more detail see:
 [Monetization](/apim/components/monetization.md)
 
@@ -105,6 +106,7 @@ Once data is collected, it will be organized using tools such as graphs and tabl
 is called reporting. Analytics, on the other hand, is the process of taking the organized data and analyzing it in order
 to gain valuable insights on how businesses can improve their performance.
 
+
 1. Users
 2. Actions
 3. Third Party
@@ -112,3 +114,59 @@ to gain valuable insights on how businesses can improve their performance.
 
 for more detail see:
 [Reports & Analytics](/apim/components/reports-analytics.md)
+
+## <a name="sla"></a> SLA
+
+A service level agreement (SLA) is a critical contract between a service provider and a consumer, outlining various objectives, obligations and actions concerning API services. It sets the standards for Quality of Service (QoS), which are agreed upon and measured based on the agreement. SLA monitoring is essential for identifying key performance characteristics of the API, evaluated under Service Level Objectives (SLO). The core aim of SLA monitoring within the API ecosystem is to track and compare the agreed SLOs with the actual performance. This process is vital for maintaining long-term, trust-based relationships between the involved parties.
+
+In the realm of API management, several key performance metrics are curcial for upholding the terms of an SLA contract between providers and consumers. These include:
+
+
+1. **Latency**: measure the time taken for an API request to receive a response. Low latency is crucial for ensuring a swift and efficient user experience. For example, optimizing an image processing API to reduce latency below 500ms.
+
+2. **Response Time**: total time from when a request is made until the complete response is received by the client. It includes not only the travel time(latency) but also the time the server takes to process the request and generate a response. 
+
+3. **Service Uptime**: indicate the availability of the API service. High uptime percentages are essential for reliable access to the service. For instance, an API with 99.99& availability is down for no more than 8.76 hours annualy. Considering monthly, the calculation would be as followed:
+
+60 min x 24h x 30 days = 43200 minutes in a month
+
+This means no more than 4 minutes of unexepcted downtime per month. 
+
+4. **Throughput**: refer to the number of requests an API can handle within a given time frame. It's vital for assessing the API's capacity to manage high loads without compromising performance. 
+
+5. **Error Rate**: Monitoring the frequency of failed API requests helps in maintaining service reliability and troubleshooting issues promptly.
+
+6. **TCP Connection**: time taken to establish a TCP connection with the API's server. 
+
+    Scenario: Real-Time Stock Trading Platform
+
+    **API Role**: The platform's API retrieves real-time stock price data from the stock exchange server.
+
+    **Importance of Fast TCP Connection**: When a trader places an order, even a millisecond's delay in fetching the latest stock prices can impact the trade's outcome, especially in high-frequency trading where decisions are made in fractions of a second.
+
+    **TCP Connect Metric**: Suppose the objective is to have a TCP connection established in less than 50 milliseconds.
+   
+    **Impact**: Achieving this metric ensures that when the platform sends a request to the stock exchange API, the initial connection is established swiftly, enabling real-time data retrieval without significant delays. This speed is crucial for traders who rely on up-to-the-moment information for their trading decisions.
+
+7. **DNS Lookup**: refer to the process of converting a domain name (like 'www.example.com') into an IP address that computers use to identify each others on the network. 
+
+Scenario: Consider a popular video streaming service, which users access through its website or app.
+
+**API Role**: When a user selects a video to watch, the app makes a request to the streaming service's API. This request starts with a DNS lookup to find the server's IP address.
+
+**DNS Lookup Objective**: Suppose the goal is to have DNS lookups completed in less than 20 milliseconds.
+
+**Importance of Speed**: In a streaming service, users expect videos to start playing almost instantly after selection. Any delay, even a few seconds, can lead to frustration and a poor user experience.
+
+**Impact of Fast DNS Lookup**: Achieving this DNS lookup speed ensures that the process of translating the domain to an IP address is swift. This efficiency is crucial because it's the first step in establishing a connection with the API server. Once the IP address is quickly resolved, the rest of the process (like establishing a connection and starting data transfer) can proceed without unnecessary delay.
+
+**User Experience**: For the user, this translates to a near-instantaneous start of video playback after they hit play, contributing to a seamless and enjoyable viewing experience
+
+**SSL Handshake**
+
+**Download Time**
+
+**Upload Time** 
+
+**Processing Time**
+
